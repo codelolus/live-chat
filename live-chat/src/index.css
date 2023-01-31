@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 1.1rem;
+    margin: 15px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: 15px;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+}
